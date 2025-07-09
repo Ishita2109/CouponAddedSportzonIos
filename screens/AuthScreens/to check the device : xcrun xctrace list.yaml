@@ -1,0 +1,6 @@
+to check the device :   xcrun xctrace list devices
+then clear the logs of ongoing servers: watchman watch-del-all
+then start your server with : npm run ios   OR   npx react-native run-ios      
+in case of the specific device : npx react-native run-ios --device "<Device-Name>"
+in case of the specific simulator : npx react-native run-ios --simulator="<Simulator-Name>"
+-------------------------------------------------------------------------------------------------
